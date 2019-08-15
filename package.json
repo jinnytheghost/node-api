@@ -1,0 +1,43 @@
+{
+  "name": "react-usersapi",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "10.13.0"
+  },
+  "scripts": {
+    "start-old": "node ./bin/www",
+    "start": "node app",
+    "dev": " set NODE_ENV=development&& node app",
+    "test": " set NODE_ENV=test&& node app",
+    "local": " set NODE_ENV=local&& node app"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "lodash.pick": "^4.4.0",
+    "mongoose": "^5.3.0",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.6.8",
+    "querymen": "^2.1.3",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/**/*.test.js"
+    ]
+  }
+}
